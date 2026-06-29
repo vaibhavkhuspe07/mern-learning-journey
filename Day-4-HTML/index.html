@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1><hr>
+    <form>
+    <label>Full Name</label><input type="text" name="nm" placeholder="Enter your name" required><br><br>
+
+    <label>Email</label><input type="email"name="em" placeholder="Enter your email" required><br><br>
+
+    <label>Password</label><input type="password" name="ps" placeholder="Enter your password" required><br><br>
+
+    <label>Phone Number</label><input type="tel" name="ph" placeholder="Enter your phone number" required><br><br>
+
+    <label>Age</label><input type="number" name="age" min="1" max="100"><br><br>
+
+    <label>Date of Birth</label><input type="date" name="dt"><br><br>
+
+    <label>Gender</label><br>
+    <input type="radio" name="gen" value="Male">Male<br>
+    <input type="radio" name="gen" value="Female">Female<br>
+    <input type="radio" name="gen" value="Other">Other<br><br>
+
+    <label name="Skills">Skills</label><br>
+    <input type="checkbox" name="skills" value="HTML">HTML<br>
+    <input type="checkbox" name="skills" value="CSS">CSS<br>
+    <input type="checkbox" name="skills" value="Javascript">Javascript<br><br>
+
+    <label>City</label>
+    <select name="city">
+        <option value="">Select city</option>
+        <option>Pune</option>
+        <option>Bengalaru</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+    </select><br><br>
+
+    <label>Address</label>
+    <textarea name="address" rows="4" ></textarea><br><br>
+
+    <button type="submit" class="submit">Submit</button>
+
+    <button type="reset" class="reset">Reset</button>
+
+    </form>
+</body>
+</html>
