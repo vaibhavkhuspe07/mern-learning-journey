@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+    <p>Please fill in your details below.</p>
+
+    <hr>
+
+    <form>
+
+        <label for="fullname">Full Name:</label><br>
+        <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name"
+            required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required>
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+            required>
+        <br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input
+            type="tel"
+            id="mobile"
+            name="mobile"
+            placeholder="Enter mobile number"
+            required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input
+            type="date"
+            id="dob"
+            name="dob"
+            required>
+        <br><br>
+
+        <label>Gender:</label><br>
+
+        <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="Male">
+
+        <label for="male">Male</label>
+
+        <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female">
+
+        <label for="female">Female</label>
+
+        <input
+            type="radio"
+            id="other"
+            name="gender"
+            value="Other">
+
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <label>Skills:</label><br>
+
+        <input type="checkbox" id="html" name="skills">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="skills">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="react" name="skills">
+        <label for="react">React</label>
+
+        <br><br>
+
+        <label for="city">City:</label><br>
+
+        <select id="city" name="city">
+
+            <option>Select City</option>
+
+            <option>Pune</option>
+
+            <option>Mumbai</option>
+
+            <option>Nagpur</option>
+
+            <option>Nashik</option>
+
+            <option>Aurangabad</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="about">About Yourself:</label><br>
+
+        <textarea
+            id="about"
+            rows="5"
+            cols="40"
+            placeholder="Write something about yourself..."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <hr>
+
+    <p><strong>Goal:</strong> Learn how HTML forms collect user information.</p>
+
+    <p>🚀 One Step Every Day, Closer To My Goal!</p>
+
+</body>
+</html>
